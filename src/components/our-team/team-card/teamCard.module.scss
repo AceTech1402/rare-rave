@@ -1,0 +1,28 @@
+@import "../../../sass/variables.scss";
+
+.wrapper {
+    @apply
+    flex 
+    w-full
+    max-w-[590px]
+    p-[24px]
+    flex-col
+    items-start
+    gap-[25px]
+    rounded-[40px];
+    background: $--blue-linear;
+    box-shadow: 12px 4px 11px 0px rgba(114, 30, 39, 0.20);
+    backdrop-filter: blur(7.5px);
+}
+
+.teamName {
+    @apply
+    text-[80px]
+    text-c-white
+}
+
+.teamInfo {
+    @apply
+    text-[20px]
+    text-c-white
+}

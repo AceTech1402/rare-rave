@@ -1,0 +1,68 @@
+.main {
+    @apply
+    w-[100vw]
+    h-[100vh]
+    
+    bg-no-repeat
+    overflow-hidden
+    relative;
+
+    &::before {
+        content: "";
+        background: url("../../assets/our-team/RaveRave.png");
+        background-size: cover;
+        background-position: 80%;
+        @apply 
+        absolute
+        left-0
+        top-0
+        w-screen
+        bg-no-repeat
+        z-[-1]
+        h-screen
+    }
+}
+
+
+.content {
+    @apply
+    max-h-screen
+    flex
+    flex-row
+    gap-[50px]
+
+}
+
+
+.memberWrapper {
+    @apply
+    max-h-screen
+    flex
+    h-full
+    overflow-auto
+    justify-start
+    flex-col
+    gap-[36px]
+    mt-[195px]
+    pt-[20px]
+    pr-[28px]
+    
+}
+
+.teamCart {
+    @apply
+    mt-auto
+    flex
+    flex-col
+    flex-1
+    pl-[80px]
+    pb-[36px]
+}
+
+.memberSide{
+    @apply
+  
+    flex
+    flex-1
+    mr-[57px]
+}

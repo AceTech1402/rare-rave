@@ -9,7 +9,15 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        c: {
+          Cyan: "#73FCFE",
+          RareRave_orange: "#FF7518",
+          white: "#FEFEFE",
+        },
+      },
+    },
     screens: {
       xl: { max: "1279px" },
       // => @media (max-width: 1279px) { ... }

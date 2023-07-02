@@ -1,0 +1,81 @@
+@import "../../../sass/variables.scss";
+.wrapper {
+    @apply
+    w-full
+    max-w-[635px]
+    h-[215px]
+    rounded-[20px]
+    p-[16px]
+    flex
+    flex-col
+    items-start
+    gap-[12px];
+
+    box-shadow: 12px 4px 11px 0px rgba(114, 30, 39, 0.20);
+    backdrop-filter: blur(7.5px);
+
+    border-radius: 20px;
+background: $--blue-linear;
+}
+
+
+
+.memberImage {
+ @apply
+ w-[120px]
+ h-[120px]
+}
+
+
+.cartTitle {
+    @apply
+    flex
+    h-[84px]
+    items-end
+    gap-[20px]
+    
+}
+
+.memberDetail {
+    @apply
+    flex
+    flex-col
+    justify-end
+    items-start
+}
+
+.memberName {
+
+    @apply
+    text-[50px]
+    
+    not-italic
+    font-normal
+    text-c-white
+
+
+}
+
+
+.memberPosition {
+    @apply
+    text-c-white
+    text-[20px]
+    font-['Jost']
+    font-semibold
+
+}
+
+.cartDesc {
+    @apply
+    w-full
+    h-auto
+   
+}
+
+
+.desc {
+    @apply
+    text-[20px]
+    text-c-white
+}
